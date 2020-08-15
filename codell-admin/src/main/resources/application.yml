@@ -7,8 +7,8 @@ spring:
       max-file-size: 10MB #限制文件上传大小为10M
 server:
   port: 8090
-  servlet:
-    context-path: /codell
+#  servlet:
+#    context-path: /codell
 
 
 mybatis:
@@ -46,10 +46,10 @@ secure:
       - /webjars/springfox-swagger-ui/**
       - /actuator/**
       - /druid/**
-      - /codell/admin/login
-      - /codell//admin/register
-      - /codell//admin/info
-      - /codell//admin/logout
+      - /admin/login
+      - /admin/register
+      - /admin/info
+      - /admin/logout
       - /minio/upload
 
 aliyun:
